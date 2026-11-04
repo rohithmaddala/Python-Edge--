@@ -1,96 +1,71 @@
-'''a=2
-b=5
-print(a+b)'''
-
-
-'''a=2
-b=7
-c=a+b
-print(c)'''
-
-
-#print(5+10)
-
-
-#run_time input()
-'''a=int(input("a value"))
-b=int(input("b value"))
-print(a+b)'''
-
-
-'''a=float(input("a value"))
-b=float(input("b value"))
-print(a+b)'''
-
-
-'''a=str(input("data1"))
-b=str(input("data2"))
-print(a+b)'''
-
-'''a=input("data1")
-b=input("data2")
-print(a+b)'''
-
-
-'''fname=input("1st name")
-lname=input("2nd name")
-print((fname+" "+lname).title())'''
-
-
-'''a=complex(input("a value"))
-b=complex(input("b value"))
-print(a+b)'''
-
-
-'''a=bool(input("a value"))
-b=bool(input("b value"))
-c=bool(input("c value"))
-print(a+b+c)'''
+#swapping of two variables
+'''a=10
+b=20
+c=a
+a=b
+b=c
+print('a=',a)
+print('b=',b)'''
 
 
 
-'''a=int(input("a value"))
-b=int(input("b value"))
-option=int(input("choose the option 1.add 2.sub 3.mul"))
-print(a+b)
-print(a-b)
-print(a*b)'''
-
-
-'''a=int(input("a value"))
-b=int(input("b value"))
-option=int(input(choose the option
-                 1.add
-                 2.sub
-                 3.mul))
-print(a+b)
-print(a-b)
-print(a*b)'''
+'''a=10
+b=20
+a,b=b,a
+print('a=',a)
+print('b=',b)'''
 
 
 
-
-'''a=int(input("a value"))
-b=int(input("b value"))
-option=int(input("choose the option add sub mul"))
-print(a+b)
-print(a-b)
-print(a*b)'''
-
-
-a=input()
-print(a)
+'''a=10
+b=20
+a=a+b
+b=a-b
+a=a-b
+print('a=',a)
+print('b=',b)'''
 
 
 
+'''a=10
+b=20
+a=a+b
+b=a-b
+a=a-b
+print('after swapping  a=%d,b=%d'%(a,b))'''
 
 
 
+'''a=float(input('a value'))
+b=float(input('b value'))
+a=a+b
+b=a-b
+a=a-b
+print('after swapping a=%f,b=%f'%(a,b))'''
 
 
 
+'''a=str(input('a value'))
+b=str(input('b value'))
+a,b=b,a
+print('after swapping a=%s,b=%s'%(a,b))'''
 
 
+
+#student-profile
+#idno.,name,mobileno.,mailid,college,branch
+id=int(input('enter the id:'))
+name=input('name:')
+mobile=int(input('enter the mobileno.:'))
+mailid=input('mail id:')
+college=input('college:')
+branch=input('branch:')
+print('id:',id)
+print('name:',name)
+print('mobile no.:',mobile)
+print('mail id:',mailid)
+print('college:',college)
+print('branch:',branch)
 
 
 
